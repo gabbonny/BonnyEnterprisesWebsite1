@@ -1,0 +1,163 @@
+/*Generic tags*/
+html {
+    min-width: 550px;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    position:relative;
+}
+
+/*Header*/
+.logo {
+    max-width: 500px;
+    float: left;
+    margin-left:50px;
+    padding-top: 20px;
+}
+.menu {
+    max-width:500px;
+    float: right;
+    display: inline-block;
+    margin-top:90px;
+    margin-right:160px;
+}
+
+    .menu > li {
+        display: inline-block;
+        font-size: 18px;
+        padding-right:55px;
+    }
+
+
+.image_container {
+    width: 100%;
+}
+
+.slide_container .image_container {
+    position: absolute;
+    float: left;
+    height: 541px;
+}
+
+/*Icons*/
+.icon-section {
+    margin-top:50px;
+    width:100%;
+    height:305px;
+    
+}
+
+.icon-container {
+    margin: auto;
+    width: 100%;
+    height: 305px;
+    display: inline-block;
+}
+.icon-card {
+    float: left;
+    width: 225px;
+    height: 234px;
+    border: solid 2px #7c287f;
+    margin: 30px 73px;
+}
+    .icon-card > a {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+.icon-box {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+
+
+
+
+/*Join the team*/
+.join-section {
+    margin-top: 50px;
+    width: 100%;
+    height: 305px;
+    position:absolute;
+}
+
+.join_container .picture {
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 257px;
+}
+
+#want .call {
+    position:relative;
+    margin:auto;
+}
+/*.overlay {
+    background-color: rgb(107,22,11);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    -moz-opacity: 20%;
+    -webkit-opacity: 20%;
+    z-index: 2;
+}*/
+
+/*testimonials*/
+
+.test-container {
+    width: 100%;
+    height: 488px;
+    margin:auto;
+    position: relative;
+    z-index: 10;
+}
+
+.image-flip {
+    width: 600px;
+    float: left;
+    height: 400px;
+    margin-left:100px;
+    margin-top:50px;
+}
+.testimonial {
+    width: 200px;
+    float: left;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#clear {
+    clear: both;
+}
+
+/*footer*/
+.links-menu {
+    display: inline-block;
+    margin-right: 20px;
+}
+    .links-menu .footer-menu {
+        display: inline-grid;
+        margin-top: 35px;
+        padding-right: 70px;
+    }
+
+.logo-img {
+    margin-right: 300px;
+    float: left;
+}
+.foot-logo {
+    padding-left: 50px;
+    width: 312px;
+    height: 80px;
+    float: left;
+}
+
